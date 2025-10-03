@@ -1,0 +1,125 @@
+🚀 GitHub Contribution Guide
+1. Set Up Git
+
+Install Git: Download Git
+
+Configure Git with your info:
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+2. Forking & Cloning
+✅ Fork
+
+Go to the repo on GitHub.
+
+Click Fork (top right). This makes a copy under your account.
+
+✅ Clone
+git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+cd REPO-NAME
+
+3. Creating a Branch
+
+Always make changes in a new branch (not main):
+
+git checkout -b feature-branch-name
+
+
+Example:
+
+git checkout -b add-css-exercise
+
+4. Making Changes
+
+Edit files (index.html, style.css, etc.).
+
+Check status:
+
+git status
+
+
+Stage changes:
+
+git add .
+
+
+Commit changes:
+
+git commit -m "Added styling for header section"
+
+5. Pushing Changes
+
+Push your branch to GitHub:
+
+git push origin feature-branch-name
+
+6. Creating a Pull Request (PR)
+
+Go to your repo on GitHub.
+
+You’ll see Compare & Pull Request. Click it.
+
+Add title & description:
+
+Title: Add CSS exercise styles
+
+Description: Explain what you did and why.
+
+Click Create Pull Request.
+
+⚠️ If it’s your own repo, you can merge directly.
+⚠️ If it’s an open-source repo, maintainers will review and merge.
+
+7. Syncing with Upstream Repo (Important for Open Source)
+
+If the original repo updates, you need to pull changes:
+
+git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME.git
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+
+8. Contribution Best Practices
+
+Follow repo’s Contributing Guidelines (look for CONTRIBUTING.md).
+
+Follow code style (indentation, naming).
+
+Write clear commit messages:
+
+feat: add new quiz component
+fix: correct typo in CSS class
+docs: update README
+
+
+Make small PRs (easy to review).
+
+Be polite & responsive to feedback.
+
+9. Tracking Your Contributions
+
+Contributions show in your GitHub profile graph (green squares).
+
+Contributions count if you:
+
+Commit to a public repo.
+
+Open/merge PRs.
+
+Review PRs.
+
+Open issues.
+
+Contribute to discussions.
+
+10. Daily GitHub Growth Strategy
+
+Start your own project → commit daily.
+
+Contribute to open-source → fork, fix issues, send PRs.
+
+Write good README.md → helps others use your repo.
+
+Join issues labeled good first issue on GitHub → beginner friendly.
